@@ -5,6 +5,9 @@ Docker version API for MODNet-model Human Matting
 - The project used by this version[MODNet Onnx](https://github.com/manthan3C273/MODNet/)
 
 
+## Update
+[Use the associated applications of the model](https://github.com/LiteraturePro/Wx-Photo/)
+
 ### Explain
 MODNet-model Human Matting(Look at the picture)
 
