@@ -27,6 +27,7 @@ MODNet-model Human Matting(Look at the picture)
 
 ## Build
 > Make sure you have `docker` installed
+
 1. Clone the MODNet repository:
     ```
     git clone https://github.com/LiteraturePro/MODNet.git
