@@ -18,8 +18,6 @@ MODNet-model Human Matting(Look at the picture)
 > Modnet can run on GPU or CPU. This project can use GPU or CPU.
 
 
-
-
 ## Compiled project on [hub.docker.com](https://hub.docker.com/)
 
 - [Normal version](https://hub.docker.com/layers/literature/modnet-matting/latest/images/sha256-65e14b60a5c155eec1d3607806456d5a269a169f7c4fdd5c760846fc0b0c3eb4?context=repo)
