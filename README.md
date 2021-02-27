@@ -21,7 +21,7 @@ MODNet-model Human Matting(Look at the picture)
 
 - [Normal version](https://hub.docker.com/layers/literature/modnet-matting/latest/images/sha256-65e14b60a5c155eec1d3607806456d5a269a169f7c4fdd5c760846fc0b0c3eb4?context=repo)
 - [Heroku version](https://hub.docker.com/layers/literature/modnet-matting/heroku/images/sha256-c3465a45ed6655969851f5e7fb5438c7837063b6143164672fded4cbf1a0e4f2?context=repo)
-
+- [Aliyun version](https://hub.docker.com/layers/literature/modnet-matting/sf/images/sha256-ec3423318458b00d342950a5c40061c16636f5875319bf33b6afe86b65389a51?context=repo)
 ## Build
 > Make sure you have `docker` installed
 
@@ -43,6 +43,13 @@ MODNet-model Human Matting(Look at the picture)
     ```
     CMD exec gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 0 app:app
     ```
+    - For Aliyun Severless
+    - For Alibaba cloud functional computing service, it specifies that the service must run on port 9000, so two locations need to be changed, one of which is as follows
+    ```
+    CMD exec gunicorn --bind 0.0.0.0:9000 --workers 1 --threads 8 --timeout 0 app:app
+    ```
+    - The other one needs to be changed `app.py` Change `8080` in to `9000` port
+    
 3. Running image (You can specify the running port yourself)：
     ```
     docker run -p 8080:8080 mod-matting
@@ -60,6 +67,10 @@ I have built the image and can install it directly. The installation command is 
     ```
     docker pull literature/modnet-matting:heroku
     docker run -p 8080:8080 literature/modnet-matting:heroku
+    ```
+- For Aliyun Severless
+    ```
+    wait
     ```
 
 Now your service has started to run, but it runs on the local port. If you need to realize the external network call, you need to act as an agent to proxy the service to your domain name，
