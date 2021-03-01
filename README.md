@@ -28,7 +28,7 @@ The webapp is deployed AWS Lambda here -
 MODNet-model Human Matting(Look at the picture)
 
 ![](https://pcdn.wxiou.cn/20210221141938.png)
-![](https://pcdn.wxiou.cn/20210301145159.png)
+![](https://pcdn.wxiou.cn/20210301145423.png)
 
 
 > This project is to package the matting program implemented by modnet algorithm as docker image to provide API calling service. If you don't know modnet, please read the original author's warehouse first. What I'm going to talk about is to use docker to build modnet as an API for calling. Of course, you can also directly run the `app.py` in the form of flash. Docker is used to avoid configuration environment errors.
