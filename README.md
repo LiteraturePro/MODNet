@@ -84,13 +84,14 @@ I have built the image and can install it directly. The installation command is 
 - For heroku
     ```
     docker pull literature/modnet-matting:heroku
-    docker run -p 8080:8080 literature/modnet-matting:heroku
     ```
-- For Aliyun Severless
-    ```
-    wait
-    ```
+    [Please see the specific tutorial for installing container application in heroku](https://github.com/LiteraturePro/Cartoonize#using-heroku)
 
+- For Aliyun Serverless
+    ```
+    docker pull literature/modnet-matting:sf
+    ```
+    [Please see the specific tutorial for installing container application in Aliyun Serverless](https://github.com/LiteraturePro/Cartoonize#using-aliyun-severless)
 Now your service has started to run, but it runs on the local port. If you need to realize the external network call, you need to act as an agent to proxy the service to your domain name，
 
 
