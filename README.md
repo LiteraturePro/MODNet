@@ -7,7 +7,7 @@ The webapp is deployed Divio-Online here - https://modnet.us.aldryn.io/
 
 The webapp is deployed Divio-Test here - https://modnet-stage.us.aldryn.io/
 
-The webapp is deployed Heroku here - https://modnet.herokuapp.com/
+The webapp is deployed Heroku here - https://modnet-demo.herokuapp.com/
 
 The webapp is deployed Aliyun Severless here - 
 
