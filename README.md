@@ -11,6 +11,7 @@ The webapp is deployed Streamlit Web here - https://share.streamlit.io/literatur
 
 ---
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=7765f4d750f0&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 ## Docker version API for MODNet-model Human Matting
 
 > Convert images on api !
@@ -122,7 +123,6 @@ Now your service has started to run, but it runs on the local port. If you need 
 ## Other
   Thanks for the work of the original author and the revised author. If you like, please give a `star`.
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=7765f4d750f0&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 
 
