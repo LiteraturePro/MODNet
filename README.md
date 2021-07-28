@@ -22,7 +22,7 @@ The webapp is deployed Divio-Test here - https://modnet-stage.us.aldryn.io/
 
 The webapp is deployed Heroku here - https://modnet-demo.herokuapp.com/
 
-The webapp is deployed Aliyun Severless here - https://modnet.ioer.cc/
+The webapp is deployed Aliyun Severless here - http://modnet.ovzv.cn/
 
 The webapp is deployed AWS Lambda here - 
 
