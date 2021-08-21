@@ -6,6 +6,8 @@
 
 The webapp is deployed Heroku Web here - https://modnet.herokuapp.com/
 
+The webapp is deployed IBM Cloud Foundry Web here - https://modnet.mybluemix.net/
+
 The webapp is deployed Streamlit Web here - https://share.streamlit.io/literaturepro/modnet/main
 ![](https://pcdn.wxiou.cn/20210309203225.png)
 
