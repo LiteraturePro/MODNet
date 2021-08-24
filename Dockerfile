@@ -12,6 +12,8 @@ RUN apt update && apt install -y \
     libglib2.0-dev
 
 # Install production dependencies.
+RUN pip install --upgrade pip
+
 RUN pip install -r requirements.txt
 
 # CPU
