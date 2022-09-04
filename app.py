@@ -13,6 +13,23 @@ import flask
 
 import inference_onnx
 
+import sentry_sdk
+from flask import Flask
+from sentry_sdk.integrations.flask import FlaskIntegration
+
+sentry_sdk.init(
+    dsn="https://1bd65a3f51934290bed6ed507cd2f22c@o513531.ingest.sentry.io/6715509",
+    integrations=[
+        FlaskIntegration(),
+    ],
+
+    # Set traces_sample_rate to 1.0 to capture 100%
+    # of transactions for performance monitoring.
+    # We recommend adjusting this value in production.
+    traces_sample_rate=1.0
+)
+
+
 app = Flask(__name__)
 
 #run_with_ngrok(app)   #starts ngrok when the app is run
