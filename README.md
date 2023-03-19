@@ -4,11 +4,11 @@
 
 > Convert images on web !
 
-The webapp is deployed Heroku Web here - https://modnet.herokuapp.com/
+The webapp is deployed Heroku Web here - https://modnet.herokuapp.com/ (abandoned)
 
-The webapp is deployed IBM Cloud Foundry Web here - https://modnet.mybluemix.net/
+The webapp is deployed IBM Cloud Foundry Web here - https://modnet.mybluemix.net/ (abandoned)
 
-The webapp is deployed Streamlit Web here - https://share.streamlit.io/literaturepro/modnet/main
+The webapp is deployed Streamlit Web here - https://modnet.streamlit.app/ 
 ![](https://pcdn.wxiou.cn/20210309203225.png)
 
 ---
@@ -22,9 +22,9 @@ The webapp is deployed Divio-Online here - https://modnet.us.aldryn.io/
 
 The webapp is deployed Divio-Test here - https://modnet-stage.us.aldryn.io/
 
-The webapp is deployed Heroku here - https://modnet-demo.herokuapp.com/
+The webapp is deployed Heroku here - https://modnet-demo.herokuapp.com/ (abandoned)
 
-The webapp is deployed Aliyun Severless here - http://modnet.ovzv.cn/
+The webapp is deployed Aliyun Severless here - http://modnet.ovzv.cn/ (abandoned)
 
 The webapp is deployed AWS Lambda here - 
 
