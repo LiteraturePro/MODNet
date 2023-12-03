@@ -8,8 +8,8 @@ import uuid
 import inference_onnx
 import shutil
 
-shutil.rmtree('input')
-os.mkdir('input')
+#shutil.rmtree('input')
+#os.mkdir('input')
 
 def convert_bytes_to_image(img__name,img_bytes):
     #将bytes结果转化为字节流
